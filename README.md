@@ -1,19 +1,19 @@
 # Exercise for AFW
 
-#Notes on the solution
+## Notes on the solution
 * This makes use of composer and php-di for dependency injection.
 * Additionally composer is used for psr-0 autoloading of libraries.
 * Mocking is used in conjunction with DI to make testing easier.
 
-#DI Configuration files 
+## DI Configuration files 
 ./config.php (for 'production' version)
 ./test/config.php (for 'test' version)
 
-# Running the unit tests
+## Running the unit tests
 cd tests
 ./runtests.sh
 
-# Running the example
+## Running the example
 php solution.php 1
 
 Merchant ID    Date           Value               
