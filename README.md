@@ -7,7 +7,7 @@
 
 ## DI Configuration files 
 ./config.php (for 'production' version)
-./test/config.php (for 'test' version)
+./test/config.php (for unit tests)
 
 ## Running the unit tests
 cd tests
