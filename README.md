@@ -1,7 +1,7 @@
 # Exercise for AFW
 
 ## Notes on the solution
-* This makes use of composer and php-di for dependency injection.
+* This makes use of composer and php-di version 4 http://php-di.org/ for dependency injection.
 * Additionally composer is used for psr-0 autoloading of libraries.
 * Mocking is used in conjunction with DI to make testing easier.
 
