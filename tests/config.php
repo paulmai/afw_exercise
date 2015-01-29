@@ -118,12 +118,12 @@
 
 			[
 				'Currency' => 'GBP',
-				'ExchangeRate' => '1',
+				'ExchangeRate' => 1,
 				'Symbol' => '£'
 			],
 			[
 				'Currency' => 'USD',
-				'ExchangeRate' => '0.66',
+				'ExchangeRate' => 0.66,
 				'Symbol' => '$'
 			],
 			[
