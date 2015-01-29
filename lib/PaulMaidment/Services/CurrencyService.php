@@ -20,6 +20,11 @@
 			$this->currencies = $currencies;
 		}
 
+		/**
+		 * Get the currency configuration array, using the code 
+		 * @param string $code 'GBP' for example
+		 * @return array The currency configuration array (including exchange rate) for given currency
+		 **/
 		public function getCurrencyByCode($code)
 		{
 			foreach($this->currencies as $current)
@@ -31,6 +36,11 @@
 			}
 		}
 		
+		/**
+		 * Get the currency configuration array, using the symbol 
+		 * @param string $symbol '£' for example
+		 * @return array The currency configuration array (including exchange rate) for given currency
+		 **/
 		public function getCurrencyBySymbol($symbol)
 		{
 			foreach($this->currencies as $current)
