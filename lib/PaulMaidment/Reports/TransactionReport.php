@@ -5,6 +5,9 @@
 	use PaulMaidment\Services\CurrencyService;
 	use PaulMaidment\ORM\TransactionTable;
 
+	/**
+	 * The class that fetches the transaction report 
+	 **/
 	class TransactionReport
 	{
 
@@ -32,7 +35,7 @@
 
 			foreach($rows as $current)
 			{
-				//Get the currency of the value from the currency service
+				//Convert the value to another currency
 				$current['value'] = $this->currencyService->convertValueToAnotherCurrency($current['value'],'GBP');
 				$result []= $current;
 			}			
