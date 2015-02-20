@@ -2,7 +2,7 @@
 	
 	return [
 
-		/**
+		/** 
 		* Mock database data, will be injected into the mock TransactionTable 
 		*/
 		'testdata.transactions' => [
